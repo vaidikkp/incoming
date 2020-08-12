@@ -150,7 +150,7 @@ class PayloadValidator(object):
 
     def validate(self, payload, required=None, strict=None):
         '''
-        Validates a given JSON payload according to the rules defiined for all
+        Validates a given JSON payload according to the rules defined for all
         the fields/keys in the sub-class.
 
         :param dict payload: deserialized JSON object.
